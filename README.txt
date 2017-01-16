@@ -17,3 +17,21 @@ Pizzeria page(in the view folder)
 4)pizza:contains the html for the pizzeria page
 
 To run a page open either the pizza or index html in the browser of your choice. 
+
+
+Main page(s)(index.html/style.css/print.css)
+10:minified and inlined style.css
+11:rendered critical path of style.css, then minified and inlined
+12:deleted font style
+58:moved script from head to body
+66:made script asynchronous
+67:made script asynchronous
+68:made script asynchronous
+
+Pizzeria page
+1:added the "use strict" directive
+415:added query selector getElementById
+435:added function determineDX
+462:pulled var randomPizzas out of for loop and used specific query selector
+534:moved scrollTop out of for loop. 
+570:reduced scrolling pizzas from 200 to 35
